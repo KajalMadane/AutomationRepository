@@ -33,7 +33,7 @@ public class Fpilkartendtoend {
 		//coustmer raitings
 		driver.findElement(By.xpath("//div[text()='4★ & above']")).click();
 		//nameWebElementes of laptops
-         List<WebElement> allLaptops = driver.findElements(By.xpath("")).click();
+         List<WebElement> allLaptops = driver.findElements(By.xpath(""));
            for (int i=0;i<allLaptops.size();i++)
            {
 	     String laptop = allLaptops.get(i).getText();
