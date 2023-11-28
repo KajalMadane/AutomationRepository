@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Method1 of TestNGpackage of Demo class]]>
+    </line>
+    <line>
+      <![CDATA[Method2 of TestNGpackage of Demo class]]>
+    </line>
+    <line>
+      <![CDATA[Method2 form Remo class]]>
+    </line>
+    <line>
+      <![CDATA[Method2 form Remo class]]>
+    </line>
+    <line>
+      <![CDATA[Method1 form Remo class]]>
+    </line>
+    <line>
+      <![CDATA[Method2 form Remo class]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-28T12:52:18 IST" name="Suite" finished-at="2023-11-28T12:52:59 IST" duration-ms="41361">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T12:52:18 IST" name="Test" finished-at="2023-11-28T12:52:59 IST" duration-ms="41361">
+      <class name="testNGPackage.Sumo">
+        <test-method signature="method1()[pri:0, instance:testNGPackage.Sumo@2d52216b]" started-at="2023-11-28T12:52:59 IST" name="method1" finished-at="2023-11-28T12:52:59 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method1 form Remo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testNGPackage.Sumo@2d52216b]" started-at="2023-11-28T12:52:59 IST" name="method2" finished-at="2023-11-28T12:52:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method2 form Remo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testNGPackage.Sumo -->
+      <class name="testNGPackage.SeleniumTest">
+        <test-method signature="selenium_method()[pri:0, instance:testNGPackage.SeleniumTest@771a660]" started-at="2023-11-28T12:52:47 IST" name="selenium_method" finished-at="2023-11-28T12:52:59 IST" duration-ms="11998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_method -->
+      </class> <!-- testNGPackage.SeleniumTest -->
+      <class name="testNGPackage.SQLTest">
+        <test-method signature="SQL_method()[pri:0, instance:testNGPackage.SQLTest@73e9cf30]" started-at="2023-11-28T12:52:34 IST" name="SQL_method" finished-at="2023-11-28T12:52:47 IST" duration-ms="13313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQL_method -->
+      </class> <!-- testNGPackage.SQLTest -->
+      <class name="testNGPackage.JavaTest">
+        <test-method signature="java_method()[pri:0, instance:testNGPackage.JavaTest@783a467b]" started-at="2023-11-28T12:52:18 IST" name="java_method" finished-at="2023-11-28T12:52:34 IST" duration-ms="15737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- java_method -->
+      </class> <!-- testNGPackage.JavaTest -->
+      <class name="testNGPackage.Demo">
+        <test-method signature="method1()[pri:0, instance:testNGPackage.Demo@1151e434]" started-at="2023-11-28T12:52:18 IST" name="method1" finished-at="2023-11-28T12:52:18 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method1 of TestNGpackage of Demo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testNGPackage.Demo@1151e434]" started-at="2023-11-28T12:52:18 IST" name="method2" finished-at="2023-11-28T12:52:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method2 of TestNGpackage of Demo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testNGPackage.Demo -->
+      <class name="testNGPackage.Remo">
+        <test-method signature="method1()[pri:0, instance:testNGPackage.Remo@272113c4]" started-at="2023-11-28T12:52:34 IST" name="method1" finished-at="2023-11-28T12:52:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method2 form Remo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testNGPackage.Remo@272113c4]" started-at="2023-11-28T12:52:34 IST" name="method2" finished-at="2023-11-28T12:52:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method2 form Remo class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testNGPackage.Remo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

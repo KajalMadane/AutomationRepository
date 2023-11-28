@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 28 12:52:18 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41361 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGPackage.SeleniumTest.selenium_method()'><b>selenium_method</b><br>Test class: testNGPackage.SeleniumTest</td>
+<td></td>
+<td>11</td>
+<td>testNGPackage.SeleniumTest@771a660</td></tr>
+<tr>
+<td title='testNGPackage.Demo.method2()'><b>method2</b><br>Test class: testNGPackage.Demo<br/>
+<a href="#Output-2129442232" onClick='toggleBox("Output-2129442232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2129442232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2129442232">
+Method2 of TestNGpackage of Demo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Demo@1151e434</td></tr>
+<tr>
+<td title='testNGPackage.SQLTest.SQL_method()'><b>SQL_method</b><br>Test class: testNGPackage.SQLTest</td>
+<td></td>
+<td>13</td>
+<td>testNGPackage.SQLTest@73e9cf30</td></tr>
+<tr>
+<td title='testNGPackage.Remo.method1()'><b>method1</b><br>Test class: testNGPackage.Remo<br/>
+<a href="#Output-1132379993" onClick='toggleBox("Output-1132379993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1132379993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1132379993">
+Method2 form Remo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Remo@272113c4</td></tr>
+<tr>
+<td title='testNGPackage.Remo.method2()'><b>method2</b><br>Test class: testNGPackage.Remo<br/>
+<a href="#Output-1103666479" onClick='toggleBox("Output-1103666479", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1103666479" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1103666479">
+Method2 form Remo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Remo@272113c4</td></tr>
+<tr>
+<td title='testNGPackage.Demo.method1()'><b>method1</b><br>Test class: testNGPackage.Demo<br/>
+<a href="#Output-684566052" onClick='toggleBox("Output-684566052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684566052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684566052">
+Method1 of TestNGpackage of Demo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Demo@1151e434</td></tr>
+<tr>
+<td title='testNGPackage.Sumo.method2()'><b>method2</b><br>Test class: testNGPackage.Sumo<br/>
+<a href="#Output-1073878937" onClick='toggleBox("Output-1073878937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1073878937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1073878937">
+Method2 form Remo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Sumo@2d52216b</td></tr>
+<tr>
+<td title='testNGPackage.JavaTest.java_method()'><b>java_method</b><br>Test class: testNGPackage.JavaTest</td>
+<td></td>
+<td>15</td>
+<td>testNGPackage.JavaTest@783a467b</td></tr>
+<tr>
+<td title='testNGPackage.Sumo.method1()'><b>method1</b><br>Test class: testNGPackage.Sumo<br/>
+<a href="#Output-1592712032" onClick='toggleBox("Output-1592712032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1592712032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1592712032">
+Method1 form Remo class<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGPackage.Sumo@2d52216b</td></tr>
+</table><p>
+</body>
+</html>

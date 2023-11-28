@@ -26,9 +26,11 @@ public class Withoutusingactionsclass {
 		 Thread.sleep(2000);
 		if(driver.findElement(By.xpath("//h1[text()='Lakshmigoldcoins']")).isDisplayed());
 		{
+			
 			System.out.println("text displayed");
 		}
-		else
+		else 
+		
 		{
 			System.out.println(" not displayed");
 		}

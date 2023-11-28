@@ -31,7 +31,7 @@ public class HandelDisableWebelement {
 if(disableRegisterButton.isDisplayed())
 {
 	jse.executeScript("arguments[0].click()",disableRegisterButton);
-	jse.executeScript("arguments[0].click()",driver.findElement(By.xpath("//a[@type='button']"));
+	jse.executeScript("arguments[0].click()",driver.findElement(By.xpath("//a[@type='button']")));
 	System.out.println("click");
 }
 else
