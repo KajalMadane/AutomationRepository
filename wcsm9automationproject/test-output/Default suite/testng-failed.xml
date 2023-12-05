@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAnnotation_Flags.Flag7">
+      <class name="testNGAssertations.NewTestAssert">
         <methods>
-          <include name="logoutMethod"/>
-          <include name="loginMethod"/>
-          <include name="createUsersMethod"/>
+          <include name="assertMethod"/>
         </methods>
-      </class> <!-- testNGAnnotation_Flags.Flag7 -->
+      </class> <!-- testNGAssertations.NewTestAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
