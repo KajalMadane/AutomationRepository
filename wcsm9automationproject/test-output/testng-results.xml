@@ -1,95 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
     <line>
-      <![CDATA[Method1 of TestNGpackage of Demo class]]>
-    </line>
-    <line>
-      <![CDATA[Method2 of TestNGpackage of Demo class]]>
-    </line>
-    <line>
-      <![CDATA[Method2 form Remo class]]>
-    </line>
-    <line>
-      <![CDATA[Method2 form Remo class]]>
-    </line>
-    <line>
-      <![CDATA[Method1 form Remo class]]>
-    </line>
-    <line>
-      <![CDATA[Method2 form Remo class]]>
+      <![CDATA[Method1 for Login Page]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-28T12:52:18 IST" name="Suite" finished-at="2023-11-28T12:52:59 IST" duration-ms="41361">
+  <suite started-at="2023-12-04T12:46:36 IST" name="Default suite" finished-at="2023-12-04T12:46:37 IST" duration-ms="250">
     <groups>
     </groups>
-    <test started-at="2023-11-28T12:52:18 IST" name="Test" finished-at="2023-11-28T12:52:59 IST" duration-ms="41361">
-      <class name="testNGPackage.Sumo">
-        <test-method signature="method1()[pri:0, instance:testNGPackage.Sumo@2d52216b]" started-at="2023-11-28T12:52:59 IST" name="method1" finished-at="2023-11-28T12:52:59 IST" duration-ms="17" status="PASS">
+    <test started-at="2023-12-04T12:46:36 IST" name="Default test" finished-at="2023-12-04T12:46:37 IST" duration-ms="250">
+      <class name="testNGAnnotation_Flags.Flag7">
+        <test-method signature="loginMethod()[pri:0, instance:testNGAnnotation_Flags.Flag7@12aba8be]" started-at="2023-12-04T12:46:37 IST" name="loginMethod" description="Login Perform!!!!!" finished-at="2023-12-04T12:46:37 IST" duration-ms="27" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method1 form Remo class]]>
+              <![CDATA[Method1 for Login Page]]>
             </line>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method signature="method2()[pri:0, instance:testNGPackage.Sumo@2d52216b]" started-at="2023-11-28T12:52:59 IST" name="method2" finished-at="2023-11-28T12:52:59 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- loginMethod -->
+        <test-method signature="createUsersMethod()[pri:0, instance:testNGAnnotation_Flags.Flag7@12aba8be]" started-at="2023-12-04T12:46:37 IST" name="createUsersMethod" description="UserCreated" finished-at="2023-12-04T12:46:37 IST" depends-on-methods="testNGAnnotation_Flags.Flag7.loginMethod" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testNGAnnotation_Flags.Flag7.createUsersMethod(Flag7.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Method2 form Remo class]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- testNGPackage.Sumo -->
-      <class name="testNGPackage.SeleniumTest">
-        <test-method signature="selenium_method()[pri:0, instance:testNGPackage.SeleniumTest@771a660]" started-at="2023-11-28T12:52:47 IST" name="selenium_method" finished-at="2023-11-28T12:52:59 IST" duration-ms="11998" status="PASS">
+        </test-method> <!-- createUsersMethod -->
+        <test-method signature="logoutMethod()[pri:0, instance:testNGAnnotation_Flags.Flag7@12aba8be]" started-at="2023-12-04T12:46:37 IST" name="logoutMethod" description="Logout Perform!!!" finished-at="2023-12-04T12:46:37 IST" depends-on-methods="testNGAnnotation_Flags.Flag7.createUsersMethod" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNGAnnotation_Flags.Flag7.logoutMethod() on instance testNGAnnotation_Flags.Flag7@12aba8be depends on not successfully finished methods 
+[testNGAnnotation_Flags.Flag7.createUsersMethod() on instance testNGAnnotation_Flags.Flag7@12aba8be]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNGAnnotation_Flags.Flag7.logoutMethod() on instance testNGAnnotation_Flags.Flag7@12aba8be depends on not successfully finished methods 
+[testNGAnnotation_Flags.Flag7.createUsersMethod() on instance testNGAnnotation_Flags.Flag7@12aba8be]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selenium_method -->
-      </class> <!-- testNGPackage.SeleniumTest -->
-      <class name="testNGPackage.SQLTest">
-        <test-method signature="SQL_method()[pri:0, instance:testNGPackage.SQLTest@73e9cf30]" started-at="2023-11-28T12:52:34 IST" name="SQL_method" finished-at="2023-11-28T12:52:47 IST" duration-ms="13313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SQL_method -->
-      </class> <!-- testNGPackage.SQLTest -->
-      <class name="testNGPackage.JavaTest">
-        <test-method signature="java_method()[pri:0, instance:testNGPackage.JavaTest@783a467b]" started-at="2023-11-28T12:52:18 IST" name="java_method" finished-at="2023-11-28T12:52:34 IST" duration-ms="15737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- java_method -->
-      </class> <!-- testNGPackage.JavaTest -->
-      <class name="testNGPackage.Demo">
-        <test-method signature="method1()[pri:0, instance:testNGPackage.Demo@1151e434]" started-at="2023-11-28T12:52:18 IST" name="method1" finished-at="2023-11-28T12:52:18 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method1 of TestNGpackage of Demo class]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method signature="method2()[pri:0, instance:testNGPackage.Demo@1151e434]" started-at="2023-11-28T12:52:18 IST" name="method2" finished-at="2023-11-28T12:52:18 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method2 of TestNGpackage of Demo class]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- testNGPackage.Demo -->
-      <class name="testNGPackage.Remo">
-        <test-method signature="method1()[pri:0, instance:testNGPackage.Remo@272113c4]" started-at="2023-11-28T12:52:34 IST" name="method1" finished-at="2023-11-28T12:52:34 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method2 form Remo class]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method signature="method2()[pri:0, instance:testNGPackage.Remo@272113c4]" started-at="2023-11-28T12:52:34 IST" name="method2" finished-at="2023-11-28T12:52:34 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method2 form Remo class]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- testNGPackage.Remo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- logoutMethod -->
+      </class> <!-- testNGAnnotation_Flags.Flag7 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
